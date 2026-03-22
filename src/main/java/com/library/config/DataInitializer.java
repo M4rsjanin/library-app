@@ -19,6 +19,7 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) {
         Book book1 = new Book();
         book1.setTitle("Wiedźmin: Ostatnie życzenie");
+        book1.setAuthor("Andrzej Sapkowski");
         book1.setAuthorFirstName("Andrzej");
         book1.setAuthorLastName("Sapkowski");
         book1.setPublisher("SuperNowa");
@@ -27,6 +28,7 @@ public class DataInitializer implements CommandLineRunner {
 
         Book book2 = new Book();
         book2.setTitle("Hobbit");
+        book2.setAuthor("J.R.R. Tolkien");
         book2.setAuthorFirstName("J.R.R.");
         book2.setAuthorLastName("Tolkien");
         book2.setPublisher("Iskry");
